@@ -6,7 +6,7 @@
     <string name="button_multiplication_text">*</string>
     <string name="first_variable">First Variable</string>
     <string name="second_variable">Second Variable</string>
-    <string name="button_equals_text">=</string>
+    <string name="button_modulo_text">%</string>
     <string name="blank_text">Blank</string>
     <string name="constant_text1">The result is\t</string>
 </resources>

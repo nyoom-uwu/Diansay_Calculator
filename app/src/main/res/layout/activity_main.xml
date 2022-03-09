@@ -12,7 +12,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="56dp"
         android:text="@string/button_multiplication_text"
-        app:layout_constraintEnd_toStartOf="@+id/buttonDivide"
+        app:layout_constraintEnd_toStartOf="@+id/button_division"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberSecondVariable" />
@@ -34,11 +34,11 @@
         android:text="@string/button_addition_text"
         app:layout_constraintEnd_toStartOf="@+id/button_subtraction"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/buttonDivide"
-        app:layout_constraintTop_toTopOf="@+id/buttonDivide" />
+        app:layout_constraintStart_toEndOf="@+id/button_division"
+        app:layout_constraintTop_toTopOf="@+id/button_division" />
 
     <Button
-        android:id="@+id/buttonDivide"
+        android:id="@+id/button_division"
         android:layout_width="77dp"
         android:layout_height="61dp"
         android:text="@string/button_divide_text"
@@ -96,11 +96,11 @@
         app:layout_constraintTop_toBottomOf="@+id/SecondVariable" />
 
     <Button
-        android:id="@+id/buttonEquals"
+        android:id="@+id/button_modulo"
         android:layout_width="163dp"
         android:layout_height="74dp"
         android:layout_marginTop="152dp"
-        android:text="@string/button_equals_text"
+        android:text="@string/button_modulo_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberSecondVariable" />
